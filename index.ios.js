@@ -1,5 +1,10 @@
+// You need React
 var React = require('react')
+
+// You need React Native, too
 var ReactNative = require('react-native')
+
+// React Native components you want to use
 var {
   AppRegistry,
   StyleSheet,
@@ -12,10 +17,7 @@ var BuyflixNative = React.createClass({
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          KIEI-924 is pretty awesome!
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
@@ -35,6 +37,8 @@ var styles = StyleSheet.create({
   },
   welcome: {
     fontSize: 20,
+    fontFamily: 'Iowan Old Style',
+    color: '#3366cc',
     textAlign: 'center',
     margin: 10,
   },
